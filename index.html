@@ -1,24 +1,83 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <h1>แก้แล้ว</h1>
-        <h2>แก้บนgit hub</h2>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header
+      class="border-solid border-gray-300 border-b-[1px] w-screen pt-3 pb-3"
+    >
+      <div class="flex items-center justify-between w-[1200px] mx-auto">
+        <img
+          class="w-[160px]"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tailwind_CSS_logo.svg/2560px-Tailwind_CSS_logo.svg.png"
+          alt=""
+        />
+        <nav class="">
+          <ul class="flex items-rigth flex space-x-4 font-medium">
+            <li>
+              <a href="#">Doc</a>
+            </li>
+            <li>
+              <a href="#">Components</a>
+            </li>
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="w-[1200px] flex items-center mx-auto pt-3 pb-3 gap-x-3">
+      <div class="w-[200px] h-[400px] bg-red-300 rounded-lg p-3">
+        Side bar here
+      </div>
+      <div class="w-[1000px] h-[400px] bg-lime-400 rounded-lg p-3">
+        content here
+      </div>
+    </main>
+    <footer
+      class="border-solid border-gray-300 border-t-[1px] w-screen pt-3 pb-3"
+    >
+      <div class="w-[1200px] grid grid-cols-4 gap-4 mx-auto">
+        <div class="p-3 rounded-lg p-3 bg-teal-500">
+          <ul>
+            <h2>Column 1</h2>
+            <li>menu link1</li>
+            <li>menu link2</li>
+            <li>menu link3</li>
+          </ul>
+        </div>
+        <div class="p-3 rounded-lg p-3 bg-teal-500">
+          <ul>
+            <h2>Column 2</h2>
+            <li>menu link1</li>
+            <li>menu link2</li>
+            <li>menu link3</li>
+          </ul>
+        </div>
+        <div class="p-3 rounded-lg p-3 bg-teal-500">
+          <ul>
+            <h2>Column 3</h2>
+            <li>menu link1</li>
+            <li>menu link2</li>
+            <li>menu link3</li>
+          </ul>
+        </div>
+        <div class="p-3 rounded-lg p-3 bg-teal-500">
+          <ul>
+            <h2>Column 4</h2>
+            <li>menu link1</li>
+            <li>menu link2</li>
+            <li>menu link3</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
